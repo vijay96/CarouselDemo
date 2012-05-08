@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551F11DD1557E8D4002BCA23 /* InsertArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 551F11DB1557E8D4002BCA23 /* InsertArray.m */; };
+		551F11DE1557E8D4002BCA23 /* InsertArray.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551F11DC1557E8D4002BCA23 /* InsertArray.xib */; };
 		55B5CA0715539CD50027B9C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B5CA0615539CD50027B9C5 /* UIKit.framework */; };
 		55B5CA0915539CD50027B9C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B5CA0815539CD50027B9C5 /* Foundation.framework */; };
 		55B5CA0B15539CD50027B9C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B5CA0A15539CD50027B9C5 /* CoreGraphics.framework */; };
@@ -15,22 +17,30 @@
 		55B5CA1715539CD50027B9C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B5CA1615539CD50027B9C5 /* AppDelegate.m */; };
 		55B5CA1A15539CD50027B9C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B5CA1915539CD50027B9C5 /* ViewController.m */; };
 		55B5CA1D15539CD50027B9C5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55B5CA1B15539CD50027B9C5 /* ViewController.xib */; };
+		55B5CA2615539D070027B9C5 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B5CA2515539D070027B9C5 /* iCarousel.m */; };
+		55B5CA2815539F240027B9C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B5CA2715539F240027B9C5 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		551F11DA1557E8D4002BCA23 /* InsertArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertArray.h; sourceTree = "<group>"; };
+		551F11DB1557E8D4002BCA23 /* InsertArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertArray.m; sourceTree = "<group>"; };
+		551F11DC1557E8D4002BCA23 /* InsertArray.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsertArray.xib; sourceTree = "<group>"; };
 		55B5CA0215539CD50027B9C5 /* MultipleCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B5CA0615539CD50027B9C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55B5CA0815539CD50027B9C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55B5CA0A15539CD50027B9C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		55B5CA0E15539CD50027B9C5 /* MultipleCarousel-Info.plist */ = {isa = PBXFileReference; path = "MultipleCarousel-Info.plist"; sourceTree = "<group>"; };
+		55B5CA0E15539CD50027B9C5 /* MultipleCarousel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleCarousel-Info.plist"; sourceTree = "<group>"; };
 		55B5CA1015539CD50027B9C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55B5CA1215539CD50027B9C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55B5CA1415539CD50027B9C5 /* MultipleCarousel-Prefix.pch */ = {isa = PBXFileReference; path = "MultipleCarousel-Prefix.pch"; sourceTree = "<group>"; };
-		55B5CA1515539CD50027B9C5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		55B5CA1415539CD50027B9C5 /* MultipleCarousel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipleCarousel-Prefix.pch"; sourceTree = "<group>"; };
+		55B5CA1515539CD50027B9C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55B5CA1615539CD50027B9C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55B5CA1815539CD50027B9C5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		55B5CA1815539CD50027B9C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		55B5CA1915539CD50027B9C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55B5CA1C15539CD50027B9C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		55B5CA2415539D070027B9C5 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		55B5CA2515539D070027B9C5 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		55B5CA2715539F240027B9C5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B5CA2815539F240027B9C5 /* QuartzCore.framework in Frameworks */,
 				55B5CA0715539CD50027B9C5 /* UIKit.framework in Frameworks */,
 				55B5CA0915539CD50027B9C5 /* Foundation.framework in Frameworks */,
 				55B5CA0B15539CD50027B9C5 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +78,7 @@
 		55B5CA0515539CD50027B9C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55B5CA2715539F240027B9C5 /* QuartzCore.framework */,
 				55B5CA0615539CD50027B9C5 /* UIKit.framework */,
 				55B5CA0815539CD50027B9C5 /* Foundation.framework */,
 				55B5CA0A15539CD50027B9C5 /* CoreGraphics.framework */,
@@ -77,11 +89,15 @@
 		55B5CA0C15539CD50027B9C5 /* MultipleCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				55B5CA2315539CF50027B9C5 /* carousel */,
 				55B5CA1515539CD50027B9C5 /* AppDelegate.h */,
 				55B5CA1615539CD50027B9C5 /* AppDelegate.m */,
 				55B5CA1815539CD50027B9C5 /* ViewController.h */,
 				55B5CA1915539CD50027B9C5 /* ViewController.m */,
 				55B5CA1B15539CD50027B9C5 /* ViewController.xib */,
+				551F11DA1557E8D4002BCA23 /* InsertArray.h */,
+				551F11DB1557E8D4002BCA23 /* InsertArray.m */,
+				551F11DC1557E8D4002BCA23 /* InsertArray.xib */,
 				55B5CA0D15539CD50027B9C5 /* Supporting Files */,
 			);
 			path = MultipleCarousel;
@@ -96,6 +112,15 @@
 				55B5CA1415539CD50027B9C5 /* MultipleCarousel-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55B5CA2315539CF50027B9C5 /* carousel */ = {
+			isa = PBXGroup;
+			children = (
+				55B5CA2415539D070027B9C5 /* iCarousel.h */,
+				55B5CA2515539D070027B9C5 /* iCarousel.m */,
+			);
+			name = carousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +175,7 @@
 			files = (
 				55B5CA1115539CD50027B9C5 /* InfoPlist.strings in Resources */,
 				55B5CA1D15539CD50027B9C5 /* ViewController.xib in Resources */,
+				551F11DE1557E8D4002BCA23 /* InsertArray.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +189,8 @@
 				55B5CA1315539CD50027B9C5 /* main.m in Sources */,
 				55B5CA1715539CD50027B9C5 /* AppDelegate.m in Sources */,
 				55B5CA1A15539CD50027B9C5 /* ViewController.m in Sources */,
+				55B5CA2615539D070027B9C5 /* iCarousel.m in Sources */,
+				551F11DD1557E8D4002BCA23 /* InsertArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +304,7 @@
 				55B5CA2215539CD50027B9C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
