@@ -1192,7 +1192,7 @@ NSComparisonResult compareViewDepth(UIView *view1, UIView *view2, iCarousel *sel
 
 - (UIView *)loadViewAtIndex:(NSInteger)index
 {
-      
+    //load view at index
     return [self loadViewAtIndex:index withContainerView:nil];
 }
 
