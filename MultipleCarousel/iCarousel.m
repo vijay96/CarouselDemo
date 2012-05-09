@@ -854,7 +854,7 @@ NSComparisonResult compareViewDepth(UIView *view1, UIView *view2, iCarousel *sel
     if(flag==0)
     {    
         view.center = CGPointMake(view.bounds.size.width/2.0f, view.bounds.size.height/2.0f);
-        view.superview.center = CGPointMake(0 + contentOffset.width,
+        view.superview.center = CGPointMake(self.bounds.size.width + contentOffset.width,
                                             self.bounds.size.height/2.0f + contentOffset.height);
         
     }

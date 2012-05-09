@@ -44,7 +44,6 @@
 						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{0, 87}, {309, 628}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="843110691"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor" id="873433941">
@@ -58,7 +57,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{311, 87}, {474, 628}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1063742373"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="873433941"/>
@@ -69,7 +67,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{780, 87}, {258, 628}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="873433941"/>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -79,7 +77,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{428, 49}, {169, 23}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="267927563"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -95,7 +92,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{625, 49}, {169, 23}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="332572823"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -110,7 +106,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{486, 20}, {53, 21}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="361928945"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -141,7 +136,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{99, 7}, {179, 21}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="174690783"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -162,7 +156,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{683, 20}, {53, 21}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="977850792"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -183,7 +176,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{866, 20}, {86, 21}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="116665864"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -204,7 +196,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{42, 36}, {292, 44}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="65510624"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -242,14 +233,13 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{866, 49}, {69, 31}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="346187390"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<string key="IBUIText"/>
+						<string key="IBUIText">10</string>
 						<int key="IBUIBorderStyle">3</int>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">3</int>
@@ -278,7 +268,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{952, 46}, {52, 35}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="133671384"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -314,7 +303,6 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{479, 698}, {151, 37}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="888223207"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -335,7 +323,6 @@
 				</array>
 				<string key="NSFrame">{{0, 20}, {1024, 748}}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="554828768"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -551,11 +538,11 @@
 							<reference ref="174690783"/>
 							<reference ref="332572823"/>
 							<reference ref="346187390"/>
-							<reference ref="888223207"/>
 							<reference ref="1063742373"/>
 							<reference ref="554828768"/>
 							<reference ref="133671384"/>
 							<reference ref="843110691"/>
+							<reference ref="888223207"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -656,118 +643,7 @@
 			<nil key="sourceID"/>
 			<int key="maxID">44</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">ViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="angleSlider:">id</string>
-						<string key="changeElementButton:">id</string>
-						<string key="itemSlider:">id</string>
-						<string key="okButton:">id</string>
-						<string key="radiusSlider:">id</string>
-						<string key="segmentControl:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="angleSlider:">
-							<string key="name">angleSlider:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="changeElementButton:">
-							<string key="name">changeElementButton:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="itemSlider:">
-							<string key="name">itemSlider:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="okButton:">
-							<string key="name">okButton:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="radiusSlider:">
-							<string key="name">radiusSlider:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="segmentControl:">
-							<string key="name">segmentControl:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="angleCount">UISlider</string>
-						<string key="itemCount">UISlider</string>
-						<string key="leftCarousel">iCarousel</string>
-						<string key="middleCarousel">iCarousel</string>
-						<string key="radiusCount">UISlider</string>
-						<string key="rightCarousel">iCarousel</string>
-						<string key="segmentValue">UISegmentedControl</string>
-						<string key="visibleItemField">UITextField</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="angleCount">
-							<string key="name">angleCount</string>
-							<string key="candidateClassName">UISlider</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="itemCount">
-							<string key="name">itemCount</string>
-							<string key="candidateClassName">UISlider</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="leftCarousel">
-							<string key="name">leftCarousel</string>
-							<string key="candidateClassName">iCarousel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="middleCarousel">
-							<string key="name">middleCarousel</string>
-							<string key="candidateClassName">iCarousel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="radiusCount">
-							<string key="name">radiusCount</string>
-							<string key="candidateClassName">UISlider</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="rightCarousel">
-							<string key="name">rightCarousel</string>
-							<string key="candidateClassName">iCarousel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="segmentValue">
-							<string key="name">segmentValue</string>
-							<string key="candidateClassName">UISegmentedControl</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="visibleItemField">
-							<string key="name">visibleItemField</string>
-							<string key="candidateClassName">UITextField</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">iCarousel</string>
-					<string key="superclassName">UIView</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="dataSource">id</string>
-						<string key="delegate">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="dataSource">
-							<string key="name">dataSource</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="delegate">
-							<string key="name">delegate</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/iCarousel.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
